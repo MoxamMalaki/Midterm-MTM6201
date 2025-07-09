@@ -175,6 +175,18 @@ p, body, button {
   opacity: 0.9;
 }
 
+/* Heading Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+}
+
+.heading-1, .heading-2, .heading-3 {
+  animation: fadeInUp 0.8s ease-out;
+}
+
 .navbar {
   position: absolute;
   top: 5px;
