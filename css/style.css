@@ -657,15 +657,15 @@ p, body, button {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1100px) {
   /* Container adjustments for desktop */
   .container {
-    max-width: 1200px;
+    max-width: 1440px;
     padding: 0 60px;
   }
 
     .nav-container {
-    max-width: 1024px;
+    max-width: 1100px;
   }
 
     .nav-container {
@@ -694,7 +694,7 @@ p, body, button {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto auto;
     gap: 24px;
-    max-width: 1000px;
+    max-width: 1100px;
   }
   
   .coffee-image.large {
@@ -733,7 +733,7 @@ p, body, button {
    grid-template-columns: repeat(12, 1fr);
    grid-template-rows: auto;
    gap: 80px;
-   max-width: 1000px;
+   max-width: 1100px;
    margin: 24px auto 0;
    align-items: start;
  }
@@ -755,7 +755,7 @@ p, body, button {
 
   /* Menu/Location adjustments */
   .menu-location-content {
-    max-width: 1000px;
+    max-width: 1100px;
   }
   
   .menu-location-grid {
@@ -775,7 +775,7 @@ p, body, button {
   
   /* Testimonials in 3 columns */
   .testimonials-content {
-    max-width: 1000px;
+    max-width: 1100px;
   }
   
 /* container */
@@ -802,6 +802,6 @@ p, body, button {
   
   /* Footer adjustment */
   .footer-content {
-    max-width: 1000px;
+    max-width: 1100px;
   }
 }
